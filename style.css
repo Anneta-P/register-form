@@ -1,0 +1,143 @@
+/*MAIN*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  /* margin: 5%; */
+  font-family: 'Roboto Serif', serif;
+}
+
+.section-cards {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+/*SECTION-INPUT-FORM*/
+
+h2 {
+  text-transform: uppercase;
+  color: rgb(75, 74, 74);
+  font-weight: 80%;
+  font-size: 20px;
+  line-height: 35px;
+  margin-bottom: 13px;
+  text-align: left;
+}
+
+.section-cta {
+  border-radius: 20px;
+  max-width: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.form-fields {
+  margin-bottom: 13px;
+}
+
+.form-field {
+  margin-bottom: 13px;
+}
+
+input {
+  height: 35px;
+  width: 100%;
+  border: 1px solid rgb(227, 225, 225);
+  border-radius: 3px;
+  padding-left: 25px;
+}
+
+input::placeholder {
+  color: lightgray;
+}
+
+textarea {
+  resize: none;
+  height: 200px;
+  width: 100%;
+  font-size: 14px;
+  border: 1px solid rgb(227, 225, 225);
+  border-radius: 3px;
+  padding-left: 25px;
+}
+
+textarea::placeholder {
+  color: lightgray;
+  font-size: 14px;
+  padding-top: 15px;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.textarea {
+  outline: none;
+  color: rgb(75, 74, 74);
+  font-family: sans-serif;
+}
+
+/*BTN*/
+
+.btn {
+  position: relative;
+  background: transparent;
+  color: #62e0cf;
+  font-size: 14px;
+  border-color: #62e0cf;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 3px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  transition: all 0.2s linear;
+}
+
+/*SECTION-GALLETY-FORM*/
+.section-gallery {
+  /* border-radius: 20px; */
+  max-width: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid-image {
+  display: block;
+  flex-basis: 100%;
+  box-sizing: border-box;
+  padding: 20px 30px 20px 0;
+}
+
+img {
+  width: 60px;
+  height: 80px;
+  padding: 1px;
+}
+
+@media only screen and (min-width: 400px) {
+  .grid-image {
+    flex-basis: 50%;
+  }
+}
